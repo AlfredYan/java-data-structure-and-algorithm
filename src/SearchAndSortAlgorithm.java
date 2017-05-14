@@ -18,80 +18,6 @@ public class SearchAndSortAlgorithm {
 		}
 	}
 	
-	/*
-	 * print theArray in horizontal
-	 * in order to show the process of search and sort clearly
-	 * COPY from Derek Banas's tutorial
-	 */
-	public void printHorzArray(int i, int j){
-		
-		for(int n = 0; n < 51; n++)System.out.print("-");
-		
-		System.out.println();
-		
-		for(int n = 0; n < arraySize; n++){
-			
-			System.out.print("| " + n + "  ");
-			
-		}
-		
-		System.out.println("|");
-		
-		for(int n = 0; n < 51; n++)System.out.print("-");
-		
-		System.out.println();
-		
-		for(int n = 0; n < arraySize; n++){
-			
-			System.out.print("| " + theArray[n] + " ");
-			
-		}
-		
-		System.out.println("|");
-		
-		for(int n = 0; n < 51; n++)System.out.print("-");
-		
-		System.out.println();
-		
-		// END OF FIRST PART
-		
-		
-		// ADDED FOR BUBBLE SORT
-		
-		if(j != -1){
-		
-			// ADD THE +2 TO FIX SPACING
-			
-			for(int k = 0; k < ((j*5)+2); k++)System.out.print(" ");
-			
-			System.out.print(j);
-			
-		}
-		
-		
-		// THEN ADD THIS CODE
-		
-		if(i != -1){
-			
-			// ADD THE -1 TO FIX SPACING
-			
-			for(int l = 0; l < (5*(i - j)-1); l++)System.out.print(" ");
-			
-			System.out.print(i);
-			
-		}
-		
-		System.out.println();
-		
-	}
-
-	//swap values for two indexes
-	public void swapValues(int indexOne, int indexTwo){
-		
-		int tempValue = theArray[indexOne];
-		theArray[indexOne] = theArray[indexTwo];
-		theArray[indexTwo] = tempValue;
-	}
 	
 	//Linear works better when needs to match all
 	public String linearSearch(int value){
@@ -246,10 +172,82 @@ public class SearchAndSortAlgorithm {
 		}
 	}
 	
+	/*
+	 * print theArray in horizontal
+	 * in order to show the process of search and sort clearly
+	 * COPY from Derek Banas's tutorial
+	 */
+	public void printHorzArray(int i, int j){
+		
+		for(int n = 0; n < 51; n++)System.out.print("-");
+		
+		System.out.println();
+		
+		for(int n = 0; n < arraySize; n++){
+			
+			System.out.print("| " + n + "  ");
+			
+		}
+		
+		System.out.println("|");
+		
+		for(int n = 0; n < 51; n++)System.out.print("-");
+		
+		System.out.println();
+		
+		for(int n = 0; n < arraySize; n++){
+			
+			System.out.print("| " + theArray[n] + " ");
+			
+		}
+		
+		System.out.println("|");
+		
+		for(int n = 0; n < 51; n++)System.out.print("-");
+		
+		System.out.println();
+		
+		// END OF FIRST PART
+		
+		
+		// ADDED FOR BUBBLE SORT
+		
+		if(j != -1){
+		
+			// ADD THE +2 TO FIX SPACING
+			
+			for(int k = 0; k < ((j*5)+2); k++)System.out.print(" ");
+			
+			System.out.print(j);
+			
+		}
+		
+		
+		// THEN ADD THIS CODE
+		
+		if(i != -1){
+			
+			// ADD THE -1 TO FIX SPACING
+			
+			for(int l = 0; l < (5*(i - j)-1); l++)System.out.print(" ");
+			
+			System.out.print(i);
+			
+		}
+		
+		System.out.println();
+		
+	}
+
+	//swap values for two indexes
+	public void swapValues(int indexOne, int indexTwo){
+		
+		int tempValue = theArray[indexOne];
+		theArray[indexOne] = theArray[indexTwo];
+		theArray[indexTwo] = tempValue;
+	}
 	
-	
-	
-	
+
 	public static void main(String[] args) {
 		SearchAndSortAlgorithm newArray = new SearchAndSortAlgorithm();
 		
@@ -259,9 +257,9 @@ public class SearchAndSortAlgorithm {
 		newArray.printHorzArray(-1, -1);
 		
 		//Linear Search
-//		System.out.println("Linear Search Start...");
-//		newArray.linearSearch(15);
-//		System.out.println("Linear Search End...");
+		System.out.println("Linear Search Start...");
+		newArray.linearSearch(15);
+		System.out.println("Linear Search End...");
 		
 		//Bubble Sort
 //		System.out.println("Bubble Sort Start...");
@@ -274,9 +272,9 @@ public class SearchAndSortAlgorithm {
 //		System.out.println("Selection Sort End...");
 		
 		//Insertion Sort
-		System.out.println("Insertion Sort Start...");
-		newArray.insertionSort();
-		System.out.println("Insertion Sort End...");
+//		System.out.println("Insertion Sort Start...");
+//		newArray.insertionSort();
+//		System.out.println("Insertion Sort End...");
 		
 		//Binary Search(uncomment one of the sort code before execute Binary)
 //		System.out.println();
