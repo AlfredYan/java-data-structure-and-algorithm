@@ -23,6 +23,7 @@ public class Stack {
 		stackArray = new String[size];
 		
 		/*
+		 * Initial Stack:
 		 * assign "-1" to every value in the array
 		 * to control what will be printed to screen
 		 */
@@ -158,7 +159,7 @@ public class Stack {
 		newStack.pop();
 
 		//insert multiple items, split by " "
-		newStack.multiPush("1 2 3 4 5 6 7");
+		newStack.multiPush("A B C D E F G");
 		
 		//remove all items in stack and print them
 		newStack.displayPopAll();
