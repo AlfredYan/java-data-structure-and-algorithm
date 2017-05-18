@@ -1,11 +1,13 @@
 # java-data-structure-and-algorithm
-**Summary**
+####Summary
 
-several demo about data structure and algorithm in java
+several demo about data structure and algorithm in java.
+
+Learn from the Java Algorithms from Derek Banas at YouTube.
 
 
 
-**Contents**
+#### Contents
 
 | Name                                     | Date      | Link                                     |
 | ---------------------------------------- | --------- | :--------------------------------------- |
