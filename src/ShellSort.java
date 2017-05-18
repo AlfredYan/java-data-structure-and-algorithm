@@ -6,6 +6,8 @@ import java.util.Arrays;
  * that small items are far to the right of array in the Insertion Sort.
  * Shell Sort uses partially sorting array before using the Insertion Sort
  * 
+ * Insertion Sort is the same as Shell Sort when the Interval equals 1
+ * 
  * Interval is the spaces between different indexes that will be compared
  * 
  * @author Alfred
@@ -260,7 +262,10 @@ public class ShellSort {
 		
 		System.out.println("Before sort: " + Arrays.toString(theSort.theArray));
 		
-		theSort.sort();
+		//without print the process
+		//theSort.sort();
+		
+		theSort.sortWithPrint();
 		
 		System.out.println("After sort: " + Arrays.toString(theSort.theArray));
 	}
