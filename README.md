@@ -20,4 +20,5 @@ several demo about data structure and algorithm in java. Learn from the [Java Al
 | Recursion, Merge Sort                    | 5/16/2017 | [Recursion.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/Recursion.java), [MergeSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/MergeSort.java) |
 | Shell Sort                               | 5/17/2017 | [ShellSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/ShellSort.java) |
 | Quick Sort                               | 5/18/2017 | [QuickSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/QuickSort.java) |
+| Big O Notation                           | 5/18/2017 | [BigONotation.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BigONotation.java) |
 

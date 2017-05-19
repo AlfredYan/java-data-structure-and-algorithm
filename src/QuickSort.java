@@ -5,7 +5,8 @@ import java.util.Arrays;
  * In most situations it's the fastest sort algorithm.
  * It works by partitioning arrays, so that
  * the smaller items are on the left and bigger items are on the right
- * then do recursion and partitions again.
+ * then recursively sends small parts of large arrays to itself
+ * and partitions again.
  * 
  * Pivot must be a value in the array
  * 
