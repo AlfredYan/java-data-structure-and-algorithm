@@ -14,6 +14,7 @@ import java.util.Scanner;
  */
 public class HashFunctionInString {
 
+	//a WordList array stores words
 	WordList[] theArray;
 	
 	int arraySize;
@@ -56,6 +57,8 @@ public class HashFunctionInString {
 		
 		int hashKeyValue = 0;
 		
+		System.out.println("Word: " + wordToHash);
+		
 		for(int i=0; i<wordToHash.length(); i++){
 			
 			//subtract 96 to make letters start at 1.(a=97)
@@ -71,6 +74,7 @@ public class HashFunctionInString {
 					+ arraySize + " = " + hashKeyValue);
 		}
 		
+		System.out.println("hashKeyValue: " + hashKeyValue);
 		System.out.println();
 		
 		return hashKeyValue;
@@ -94,6 +98,7 @@ public class HashFunctionInString {
 		
 		int hashKey = stringHashFunction(wordToFind);
 		
+		//find the word at the WordList where the index in array is hashKey
 		Word theWord = theArray[hashKey].find(hashKey, wordToFind);
 		
 		return theWord;
@@ -119,6 +124,8 @@ public class HashFunctionInString {
 		//calculate the hashKey for the word
 		int hashKey = stringHashFunction(WordToHash);
 		
+		theArray[hashKey].insert(newWord, hashKey);
+		
 	}
 	
 	public void displayTheArray(){
@@ -131,24 +138,36 @@ public class HashFunctionInString {
 	}
 	
 	public static void main(String[] args) {
-		
+
 		Scanner input = new Scanner(System.in);
-		
+
+		// Make a 11 item array that will hold words
+		// and definitions
+
 		HashFunctionInString wordHashTable = new HashFunctionInString(11);
-		
+
 		String wordLookUp = "a";
-		
-		//keep retrieve requests until "x" is entered
-		while(!wordLookUp.equalsIgnoreCase("x")){
-			
+
+		// Keep retrieve requests until x is entered
+
+		while (!wordLookUp.equalsIgnoreCase("x")) {
+
 			System.out.println(": ");
-			
+
 			wordLookUp = input.nextLine();
-			
+
+			// Look for the word requested and print
+			// it out to screen
+
 			System.out.println(wordHashTable.find(wordLookUp));
+
 		}
-		
+
+		// Display every item in the array with
+		// the index they are associated with
+
 		wordHashTable.displayTheArray();
+
 	}
 }
 
@@ -233,25 +252,4 @@ class WordList{
 		
 		return null;
 	}
-	
-//	public static void main(String[] args) {
-//		
-//		Scanner input = new Scanner(System.in);
-//		
-//		HashFunctionInString wordHashTable = new HashFunctionInString(11);
-//		
-//		String wordLookUp = "a";
-//		
-//		//keep retrieve requests until "x" is entered
-//		while(!wordLookUp.equalsIgnoreCase("x")){
-//			
-//			System.out.println(": ");
-//			
-//			wordLookUp = input.nextLine();
-//			
-//			System.out.println(wordHashTable.find(wordLookUp));
-//		}
-//		
-//		wordHashTable.displayTheArray();
-//	}
 }
