@@ -21,4 +21,5 @@ several demo about data structure and algorithm in java. Learn from the [Java Al
 | Shell Sort                               | 5/17/2017 | [ShellSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/ShellSort.java) |
 | Quick Sort                               | 5/18/2017 | [QuickSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/QuickSort.java) |
 | Big O Notation                           | 5/18/2017 | [BigONotation.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BigONotation.java) |
+| Hash Table, Hash Function in Number      | 5/19/2017 | [HashFunctionInNumber.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/HashFunctionInNumber.java) |
 
