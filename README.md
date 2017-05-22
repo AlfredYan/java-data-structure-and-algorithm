@@ -22,6 +22,7 @@ several demo about data structure and algorithm in java. Learn from the [Java Al
 | Quick Sort                               | 5/18/2017 | [QuickSort.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/QuickSort.java) |
 | Big O Notation                           | 5/18/2017 | [BigONotation.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BigONotation.java) |
 | Hash Table, Hash Function in Number      | 5/19/2017 | [HashFunctionInNumber.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/HashFunctionInNumber.java) |
-| Hash Function in String                  | 5/20/2019 | [HashFunctionInString.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/HashFunctionInString.java) |
-| Binary Tree                              | 5/21/2019 | [BinaryTree.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BinaryTree.java) |
+| Hash Function in String                  | 5/20/2017 | [HashFunctionInString.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/HashFunctionInString.java) |
+| Binary Tree                              | 5/21/2017 | [BinaryTree.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BinaryTree.java) |
+| Print Tree                               | 5/22/2017 | [PrintTree.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/PrintTree.java) |
 
