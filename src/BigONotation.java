@@ -1,8 +1,9 @@
 /**
  * Big O Notation
+ * A relative representation of the complexity of an algorithm
  * COPY from Derek Banas's tutorial
  * 
- * exampples:
+ * examples:
  * O(1): add item to array
  * O(N): Linear Search
  * O(N^2): Bubble sort

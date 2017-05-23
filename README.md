@@ -25,4 +25,5 @@ several demo about data structure and algorithm in java. Learn from the [Java Al
 | Hash Function in String                  | 5/20/2017 | [HashFunctionInString.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/HashFunctionInString.java) |
 | Binary Tree                              | 5/21/2017 | [BinaryTree.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/BinaryTree.java) |
 | Print Tree                               | 5/22/2017 | [PrintTree.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/PrintTree.java) |
+| Heap                                     | 5/23/2017 | [Heap.java](https://github.com/AlfredYan/java-data-structure-and-algorithm/blob/master/src/Heap.java) |
 
