@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Parent keys are bigger than children.
  * The left child is not always less than the right.
  * Very fast at insertion and deletion.
- * Very slow at traversal and searching
+ * Very slow at traversal and searching.
  * 
  * @author Alfred
  *
